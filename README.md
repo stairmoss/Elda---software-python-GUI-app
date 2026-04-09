@@ -1,51 +1,73 @@
-### ELDA: Localized AI Caregiving System
+# ELDA: AI Caregiving System
 
-Welcome to the ELDA project. We have developed this system keeping in mind the heavy responsibility of Alzheimer's caregiving. Basically, it is a localized AI system running in the background only. It directly assists the patient using simple voice and chat interfaces, while simultaneously providing a proper dashboard for caregivers and doctors to monitor the situation without any tension.
+Welcome to the **ELDA** project. We have developed this system keeping in mind the heavy responsibility of Alzheimer's caregiving. Essentially, it is a localized AI system running in the background, assisting the patient through simple voice and chat interfaces while providing a comprehensive dashboard for caregivers and doctors to monitor the situation seamlessly.
 
-### System Architecture
+---
 
-The system architecture is designed to be very simple for the patient. They do not need to learn any complex user interface; they can interact naturally through voice or text. At the backend, the ELDA AI brain is doing the heavy lifting. It is powered by Qwen 2.5 3B running locally via Ollama, which handles memory management, detects emotions, and constantly checks for patient risks.
+## System Architecture
 
-For the family and caregivers, the system provides daily guides and immediate risk alerts so they can manage their daily work peacefully. The concerned doctors can also access long-term trend updations to adjust the care plans accordingly during regular medical checkups.
+The system architecture is designed for maximum simplicity for the patient. Users interact naturally through voice or text without needing to learn complex interfaces. 
 
-### Technology Stack
+* **The Brain:** Powered by **Qwen 2.5 3B** running locally via **Ollama**. It handles memory management, emotion detection, and risk assessment.
+* **For Caregivers:** Provides daily guides and immediate risk alerts to allow for peaceful daily management.
+* **For Doctors:** Offers access to long-term trend updates to adjust care plans during medical checkups.
 
-We are utilizing Python 3.10 and above for the core programming. For the AI and logic part, we have integrated Ollama with the Qwen2.5-3B model, Sentence-Transformers for RAG, and FAISS for memory retrieval.
+---
 
-The backend routing is handled by FastAPI and SQLAlchemy, and the desktop application is built using PySide6. For voice processing, Vosk and Coqui TTS are doing the needful. Everything is stored locally in an Async SQLite database because it is very lightweight and fast. Kindly refer to the elda folder in the repository for the exact file arrangements.
+## Technology Stack
 
-### Setup and Installation
+We utilize **Python 3.10+** for core programming, integrated with the following stack:
 
-Kindly follow these steps sequentially to start the application on your local system.
+| Component | Technology |
+| :--- | :--- |
+| **LLM Engine** | Ollama (Qwen2.5-3B) |
+| **Vector DB / RAG** | Sentence-Transformers & FAISS |
+| **Backend** | FastAPI & SQLAlchemy |
+| **GUI Framework** | PySide6 |
+| **Voice / TTS** | Vosk & Coqui TTS |
+| **Database** | Async SQLite |
 
-First, you have to install Ollama on your machine. Once it is installed, open your terminal and pull the required model by running the below command:
+> [!NOTE]
+> Please refer to the `elda` folder in the repository for specific file arrangements.
 
+---
+
+## Setup and Installation
+
+Follow these steps sequentially to start the application on your local system.
+
+### 1. Install Ollama & Pull Model
+First, install [Ollama](https://ollama.com/) on your machine. Once installed, pull the required model:
+
+```bash
 ollama pull qwen2.5:3b
-
-
-Next, kindly clone the project repository to your local machine and navigate into the folder:
-
-git clone https://github.com/stairmoss/Elda---software-python-GUI-app.git
-
+```
+2. Clone the Repository
+Clone the project to your local machine and navigate into the directory:
+```
+git clone [https://github.com/stairmoss/Elda---software-python-GUI-app.git](https://github.com/stairmoss/Elda---software-python-GUI-app.git)
 cd Elda---software-python-GUI-app
+```
+3. Environment Setup
+Create and activate a virtual environment to keep your system packages clean:
 
-
-After that, kindly make sure you have Python installed. It is highly recommended to create and activate a virtual environment so it does not disturb your other system packages. You can do the needful by executing:
-
+On Windows:
+```
 python -m venv venv
-
-# If you are using Windows, run this:
 venv\Scripts\activate
-
-# If you are using Mac or Linux, run this:
+```
+On Mac or Linux: 
+```
+python -m venv venv
 source venv/bin/activate
-
-
-Once the virtual environment is activated, install all the required Python dependencies:
-
+```
+4. Install Dependencies
+With the virtual environment active, install the required packages:
+```
 pip install -r requirements.txt
-
-
-Once the installations are completed, everything is set. You just need to run the main file to start the system:
-
+```
+5. Launch the System
+Run the main file to start ELDA:
+```
 python run_elda.py
+```
