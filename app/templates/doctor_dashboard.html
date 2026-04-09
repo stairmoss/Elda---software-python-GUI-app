@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELDA - Doctor Dashboard</title>
+    <style>
+        :root {
+            --primary: #3498db;
+            --secondary: #2ecc71;
+            --bg-light: #f7f9fc;
+            --text-dark: #2c3e50;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary), #2980b9);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            border-top: 4px solid var(--primary);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--text-dark);
+        }
+
+        .status-badge {
+            background-color: var(--secondary);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>🩺 Doctor Dashboard</h1>
+        <p>Patient Control Center | ELDA v2.1</p>
+    </div>
+
+    <div class="container">
+        <!-- Patient Status -->
+        <div class="card">
+            <h3>Patient Status <span class="status-badge" id="status-badge">Online</span></h3>
+            <p>Risk Level</p>
+            <div class="stat-value" id="risk-score">Low</div>
+            <p id="risk-desc">No immediate concerns detected.</p>
+        </div>
+
+        <!-- Vitals -->
+        <div class="card">
+            <h3>Live Vitals</h3>
+            <p>Heart Rate: <strong id="hr-val">--</strong> bpm</p>
+            <p>SpO2: <strong id="spo2-val">--</strong> %</p>
+            <p>Last Activity: <span id="last-act">Just now</span></p>
+        </div>
+
+        <!-- AI Insights -->
+        <div class="card" style="border-top-color: var(--secondary);">
+            <h3>🤖 AI Clinical Insights</h3>
+            <p><em>"Patient mood is stable. Routine adherence is 95%. No confusion detected in last conversation."</em>
+            </p>
+            <button
+                style="background:var(--primary); color:white; border:none; padding:10px; border-radius:5px; cursor:pointer;"
+                onclick="refreshData()">Refresh Analysis</button>
+        </div>
+    </div>
+
+    <!-- Actions Area -->
+    <div class="card" style="margin-top: 20px; border-top-color: var(--secondary);">
+        <h3>📧 Actions & Reports</h3>
+        <button onclick="sendEmailReport()"
+            style="background:#e67e22; color:white; border:none; padding:12px 24px; border-radius:8px; cursor:pointer; font-weight:bold;">
+            Send Daily Report -> Doctors/Caregivers
+        </button>
+        <p id="email-status" style="margin-top:10px; color:#777;"></p>
+    </div>
+
+    <!-- Timeline & Logs -->
+    <div class="card" style="margin-top: 20px;">
+        <h3>Activity Timeline & Chat History</h3>
+
+        <h4 style="margin-top:20px;">Recent Conversations (Chat Log)</h4>
+        <div id="chat-log-container"
+            style="max-height: 200px; overflow-y: auto; background: #f0f0f0; padding: 10px; border-radius: 8px;">
+            <p> - No chat logs yet - </p>
+        </div>
+    </div>
+
+    <script>
+        // Send Email
+        async function sendEmailReport() {
+            const statusFn = document.getElementById('email-status');
+            statusFn.innerText = "Sending...";
+            try {
+                const res = await fetch('/api/doctor/send_report', { method: 'POST' });
+                const data = await res.json();
+                statusFn.innerText = "✅ " + data.message;
+            } catch (e) {
+                statusFn.innerText = "❌ Error sending report";
+            }
+        }
+
+        // Real Data Refresh
+        async function refreshData() {
+            try {
+                // 1. Overview
+                const response = await fetch('/api/doctor/patient/1/overview');
+                const data = await response.json();
+
+                if (data.vitals) {
+                    document.getElementById('hr-val').innerText = data.vitals.heart_rate;
+                    document.getElementById('spo2-val').innerText = data.vitals.oxygen;
+                }
+
+                const badge = document.getElementById('status-badge');
+                badge.innerText = data.status;
+                badge.style.backgroundColor = (data.status === 'Sensor Disconnected') ? '#e74c3c' : '#2ecc71';
+
+                // 2. Chat Logs
+                try {
+                    const chatRes = await fetch('/api/doctor/patient/1/logs/chat');
+                    const chatData = await chatRes.json();
+                    const chatDiv = document.getElementById('chat-log-container');
+
+                    if (chatData.logs && chatData.logs.length > 0) {
+                        chatDiv.innerHTML = chatData.logs.map(l => {
+                            // Handle simple string or dict logs
+                            const txt = (typeof l === 'string') ? l : (l.text || JSON.stringify(l));
+                            return `<div style="margin-bottom:5px; border-bottom:1px solid #ddd; padding-bottom:2px;">${txt}</div>`;
+                        }).join('');
+                    }
+                } catch (e) { console.log("Chat log error", e); }
+
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        }
+        setInterval(refreshData, 2000);
+        refreshData(); // Initial call
+    </script>
+</body>
+
+</html>

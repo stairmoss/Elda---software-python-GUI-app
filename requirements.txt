@@ -1,0 +1,15 @@
+pyside6
+pyttsx3
+sentence-transformers
+faiss-cpu
+sqlalchemy
+apscheduler
+matplotlib
+requests
+torch
+transformers
+fastapi
+uvicorn[standard]
+SpeechRecognition
+pyaudio
+duckduckgo-search

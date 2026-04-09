@@ -1,0 +1,787 @@
+[
+    {
+        "timestamp": "2026-04-08T20:42:07.048085",
+        "heart_rate": 75,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:10.123540",
+        "heart_rate": 96,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:10.131520",
+        "heart_rate": 73,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:13.190363",
+        "heart_rate": 73,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:13.133034",
+        "heart_rate": 98,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:16.242480",
+        "heart_rate": 73,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:16.368311",
+        "heart_rate": 98,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:19.263437",
+        "heart_rate": 72,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:19.369184",
+        "heart_rate": 98,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:22.265044",
+        "heart_rate": 73,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:22.370053",
+        "heart_rate": 99,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:25.266689",
+        "heart_rate": 71,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:42:25.372892",
+        "heart_rate": 100,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:28.268494",
+        "heart_rate": 71,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:42:28.375129",
+        "heart_rate": 100,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:31.270255",
+        "heart_rate": 70,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:31.376972",
+        "heart_rate": 98,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:34.271936",
+        "heart_rate": 70,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:34.378622",
+        "heart_rate": 96,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:37.273501",
+        "heart_rate": 69,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:37.381423",
+        "heart_rate": 94,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:42:40.275483",
+        "heart_rate": 71,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:40.384375",
+        "heart_rate": 95,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:42:43.276580",
+        "heart_rate": 73,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:43.387035",
+        "heart_rate": 96,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:42:46.391635",
+        "heart_rate": 94,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:42:49.392923",
+        "heart_rate": 92,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:52.394426",
+        "heart_rate": 90,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:55.395516",
+        "heart_rate": 89,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:42:58.397948",
+        "heart_rate": 88,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:43:01.400518",
+        "heart_rate": 90,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:43:04.401868",
+        "heart_rate": 90,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:43:07.404266",
+        "heart_rate": 88,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:43:10.405387",
+        "heart_rate": 89,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:43:13.406464",
+        "heart_rate": 91,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:43:16.409021",
+        "heart_rate": 92,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:43:19.412608",
+        "heart_rate": 91,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:43:22.415515",
+        "heart_rate": 92,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:43:25.419127",
+        "heart_rate": 92,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:43:28.420687",
+        "heart_rate": 91,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:43:31.423553",
+        "heart_rate": 89,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:43:34.427793",
+        "heart_rate": 88,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:43:37.429498",
+        "heart_rate": 88,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:43:40.432488",
+        "heart_rate": 87,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:43:43.434903",
+        "heart_rate": 85,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:43:46.438220",
+        "heart_rate": 85,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:43:49.441277",
+        "heart_rate": 85,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:43:52.444329",
+        "heart_rate": 86,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:43:55.447846",
+        "heart_rate": 84,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:43:58.451467",
+        "heart_rate": 85,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:44:01.454600",
+        "heart_rate": 87,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:44:04.457354",
+        "heart_rate": 88,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:44:07.458833",
+        "heart_rate": 86,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:44:10.461607",
+        "heart_rate": 85,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:44:13.464506",
+        "heart_rate": 86,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:44:16.466276",
+        "heart_rate": 85,
+        "oxygen": 100
+    },
+    {
+        "timestamp": "2026-04-08T20:44:19.473039",
+        "heart_rate": 85,
+        "oxygen": 100
+    },
+    {
+        "timestamp": "2026-04-08T20:44:22.475592",
+        "heart_rate": 83,
+        "oxygen": 100
+    },
+    {
+        "timestamp": "2026-04-08T20:44:25.479105",
+        "heart_rate": 82,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:44:28.482778",
+        "heart_rate": 84,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:44:31.486550",
+        "heart_rate": 83,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:44:34.489879",
+        "heart_rate": 83,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:44:37.491289",
+        "heart_rate": 84,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:44:40.494519",
+        "heart_rate": 82,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:44:43.497898",
+        "heart_rate": 83,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:44:46.501293",
+        "heart_rate": 84,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:44:49.505406",
+        "heart_rate": 85,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:44:52.506811",
+        "heart_rate": 85,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:44:55.508272",
+        "heart_rate": 85,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:44:58.510137",
+        "heart_rate": 85,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:45:01.513629",
+        "heart_rate": 84,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:45:04.514908",
+        "heart_rate": 86,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:45:07.519230",
+        "heart_rate": 88,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:45:10.520799",
+        "heart_rate": 87,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:45:13.522564",
+        "heart_rate": 88,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:45:16.527158",
+        "heart_rate": 89,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:45:19.530975",
+        "heart_rate": 90,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:45:22.534014",
+        "heart_rate": 89,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:45:25.535666",
+        "heart_rate": 91,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:45:28.540102",
+        "heart_rate": 93,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:45:31.544259",
+        "heart_rate": 95,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:45:34.547952",
+        "heart_rate": 93,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:45:37.551682",
+        "heart_rate": 93,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:45:40.555255",
+        "heart_rate": 92,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:45:43.559471",
+        "heart_rate": 92,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:45:46.563891",
+        "heart_rate": 94,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:45:49.568249",
+        "heart_rate": 94,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:45:52.572451",
+        "heart_rate": 94,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:45:55.574866",
+        "heart_rate": 95,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:45:58.579532",
+        "heart_rate": 94,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:46:01.582239",
+        "heart_rate": 95,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:46:04.586387",
+        "heart_rate": 93,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:46:07.591168",
+        "heart_rate": 93,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:46:10.593497",
+        "heart_rate": 93,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:46:13.599510",
+        "heart_rate": 95,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:46:16.602864",
+        "heart_rate": 95,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:46:19.606462",
+        "heart_rate": 97,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:46:22.611252",
+        "heart_rate": 96,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:46:25.613064",
+        "heart_rate": 98,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:46:28.617760",
+        "heart_rate": 100,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:46:31.619758",
+        "heart_rate": 99,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:46:34.624726",
+        "heart_rate": 99,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:46:37.632999",
+        "heart_rate": 100,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:46:40.634864",
+        "heart_rate": 100,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:46:43.193362",
+        "heart_rate": 74,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:46:43.639715",
+        "heart_rate": 100,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:46:46.642516",
+        "heart_rate": 99,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:46:46.646381",
+        "heart_rate": 73,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:46:49.645814",
+        "heart_rate": 100,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:46:49.665383",
+        "heart_rate": 72,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:46:52.648121",
+        "heart_rate": 100,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:46:52.673799",
+        "heart_rate": 74,
+        "oxygen": 100
+    },
+    {
+        "timestamp": "2026-04-08T20:46:55.651646",
+        "heart_rate": 100,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:46:55.679726",
+        "heart_rate": 72,
+        "oxygen": 100
+    },
+    {
+        "timestamp": "2026-04-08T20:46:58.653705",
+        "heart_rate": 98,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:46:58.681697",
+        "heart_rate": 73,
+        "oxygen": 100
+    },
+    {
+        "timestamp": "2026-04-08T20:47:01.656096",
+        "heart_rate": 97,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:47:01.684111",
+        "heart_rate": 75,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:47:04.658491",
+        "heart_rate": 95,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:47:04.687876",
+        "heart_rate": 74,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:47:07.669862",
+        "heart_rate": 97,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:47:07.691907",
+        "heart_rate": 73,
+        "oxygen": 100
+    },
+    {
+        "timestamp": "2026-04-08T20:47:10.671858",
+        "heart_rate": 99,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:47:10.697055",
+        "heart_rate": 72,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:47:13.701700",
+        "heart_rate": 74,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:47:16.707763",
+        "heart_rate": 74,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:47:19.712964",
+        "heart_rate": 72,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:47:22.718779",
+        "heart_rate": 73,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:47:25.723951",
+        "heart_rate": 73,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:47:28.729701",
+        "heart_rate": 72,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:47:31.732591",
+        "heart_rate": 72,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:47:34.737565",
+        "heart_rate": 70,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:47:37.743458",
+        "heart_rate": 70,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:47:38.701417",
+        "heart_rate": 74,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:47:40.749844",
+        "heart_rate": 68,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:47:41.940869",
+        "heart_rate": 75,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:47:43.758016",
+        "heart_rate": 66,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:47:44.949403",
+        "heart_rate": 73,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:47:46.760857",
+        "heart_rate": 68,
+        "oxygen": 94
+    },
+    {
+        "timestamp": "2026-04-08T20:47:47.961426",
+        "heart_rate": 72,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:47:49.763430",
+        "heart_rate": 69,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:47:50.970387",
+        "heart_rate": 73,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:47:52.767410",
+        "heart_rate": 71,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:47:53.979858",
+        "heart_rate": 71,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:47:55.772129",
+        "heart_rate": 71,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:47:56.986510",
+        "heart_rate": 69,
+        "oxygen": 98
+    },
+    {
+        "timestamp": "2026-04-08T20:47:58.777764",
+        "heart_rate": 73,
+        "oxygen": 95
+    },
+    {
+        "timestamp": "2026-04-08T20:47:59.990340",
+        "heart_rate": 68,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:48:01.782658",
+        "heart_rate": 73,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:48:02.996631",
+        "heart_rate": 68,
+        "oxygen": 99
+    },
+    {
+        "timestamp": "2026-04-08T20:48:04.786944",
+        "heart_rate": 72,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:48:07.794628",
+        "heart_rate": 74,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:48:10.798084",
+        "heart_rate": 75,
+        "oxygen": 97
+    },
+    {
+        "timestamp": "2026-04-08T20:48:13.800788",
+        "heart_rate": 75,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:48:16.806192",
+        "heart_rate": 76,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:48:19.812984",
+        "heart_rate": 74,
+        "oxygen": 96
+    },
+    {
+        "timestamp": "2026-04-08T20:48:22.816075",
+        "heart_rate": 74,
+        "oxygen": 95
+    }
+]
