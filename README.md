@@ -71,3 +71,4 @@ Run the main file to start ELDA:
 ```
 python start.py
 ```
+NOTE : This program is based on Python 3.12.3
