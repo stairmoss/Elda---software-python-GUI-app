@@ -69,5 +69,5 @@ pip install -r requirements.txt
 5. Launch the System
 Run the main file to start ELDA:
 ```
-python run_elda.py
+python start.py
 ```
