@@ -45,7 +45,7 @@ ollama pull qwen2.5:3b
 2. Clone the Repository
 Clone the project to your local machine and navigate into the directory:
 ```
-git clone [https://github.com/stairmoss/Elda---software-python-GUI-app.git](https://github.com/stairmoss/Elda---software-python-GUI-app.git)
+git clone https://github.com/stairmoss/Elda---software-python-GUI-app.git
 cd Elda---software-python-GUI-app
 ```
 3. Environment Setup
